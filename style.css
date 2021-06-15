@@ -74,21 +74,37 @@ img {
 
 /* RESPONSIVE */
 @media screen and (max-width: 420px) {
+  * {
+    margin: 0;
+  }
+
+  #lezioni, #steps, #why {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
   .row {
     width: 100%;
+    margin-top: 0;
   }
   
   #lezioni .row>.left, #lezioni .row>.right {
     float: none;
     width: 100%;
+    margin-top: 20px;
   }
 
   #steps .row>.left, #steps .row>.central, #steps .row>.right {
     float: none;
     width: 100%;
+    margin-top: 20px;
   }
 
   #lezioni, #why{
     background-color: #f2f2cd;
+  }
+
+  #why .row>.first, #why .row>.second, #why .row>.third {
+    margin-top: 20px;
   }
 }
