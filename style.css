@@ -88,4 +88,7 @@ img {
     width: 100%;
   }
 
+  #lezioni, #why{
+    background-color: #f2f2cd;
+  }
 }
