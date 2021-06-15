@@ -73,7 +73,7 @@ img {
 }
 
 /* RESPONSIVE */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 419px) {
   * {
     margin: 0;
     box-sizing: border-box;
@@ -83,8 +83,17 @@ img {
     height: 100px;
   }
 
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
   #lezioni, #steps, #why {
-    padding: 20px;
+    padding: 20px 10px;
+    font-size: 12px;
   }
 
   .row {
@@ -110,6 +119,10 @@ img {
 
   #why .row>.first, #why .row>.second, #why .row>.third {
     margin-top: 20px;
+  }
+
+  #why .row img {
+    padding: 20px;
   }
 
   #why hr {
